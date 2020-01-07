@@ -1,20 +1,14 @@
 # ROS Driver for Android Sensors
-This is a nice android application that allows for publishing of data from a phone to a publish ROS master.
-This can be used to record a ROS bag of data or to preform SLAM on a higher powered computer.
-Note that this only works on phones that use the Camera1 API (so no newer camera2 api phones).
-If you are interested in recording data for a Camera2 API phone check out our other repository [android-dataset-recorder](https://github.com/rpng/android-dataset-recorder).
-Also note that on some phones the number of cameras that you can use is limited (and thus if you select more the app will fail).
-This is caused by a limit to the bandwidth over the camera buses on the physical phone hardware.
-Original codebase is from [here](https://github.com/chadrockey/android_sensors_driver) and has been updated to both compile with the new versions and added new features.
-This has been tested on the "Yellowstone" [Tango Tablet Development Kit](https://developers.google.com/tango/hardware/tablet) but should work on all Camera1 API phones.
+```bash
+git clone git@github.com:joechang0113/android-sensors-driver.git
+```
 
 ## How to compile and install?
 
-* Downlaod Android Studio and install https://developer.android.com/studio/index.html
-* Run `git clone https://github.com/rpng/android_sensors_driver.git android_sensor_project`
-* Open `android_sensor_project` as existing project in Android Studio
+* Open `android_sensor_driver` as existing project in Android Studio
 * Press run button
 * Build will fail but suggest to install missing frameworks. Click on the link, install missing, and press run again.
+* If u have something error like Gradle problem see [here]().
 * You can choose to run on a simulator or on your phone
   * Phone
     * Your phone must have developer mode enabled.
