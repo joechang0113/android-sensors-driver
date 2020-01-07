@@ -29,11 +29,3 @@ git clone git@github.com:joechang0113/android-sensors-driver.git
 * Current device magnetometer data - `/android/tango1/magnetic_field`
 * Current device temperature - `/android/tango1/temperature`
 * Current device pressure - `/android/tango1/barometric_pressure`
-
-
-
-## Screenshots
-
-![Screenshot 1](screenshots/Screenshot_2016-01-11-11-53-21.png)
-![Screenshot 3](screenshots/Screenshot_2017-10-27-12-22-12.png)
-![Screenshot 4](screenshots/Screenshot_2017-10-27-12-25-37.png)
